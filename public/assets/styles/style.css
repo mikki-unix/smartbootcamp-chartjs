@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: #ffffe0;
+    font-family: Barlow;
+
+    padding: 0;
+    margin: 0;
+    color: rgb(112 92 86);
+}
+
+a, a:visited {
+    color: inherit;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+a:hover {
+    transition: 300ms;
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+a:active {
+    transition: 100ms;
+    font-size: 1.2em;
+    color: rgb(78, 65, 61);
+}
+
+header {
+    height: fit-content;
+    width: 100%;
+    padding-top: 130px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header * {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.3em;
+}
+
+p > a {
+    font-weight: 500;
+}
+
+main {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.grafico {
+   width: 900px;
+   min-width: 300px;
+
+   height: 500px;
+}
