@@ -12,11 +12,10 @@ body {
 a, a:visited {
     color: inherit;
     text-decoration: none;
-    transition: 400ms;
+    transition: 400ms ease;
 }
 
 a:hover {
-    transition: 300ms;
     text-decoration: underline;
     font-size: 1.3em;
 }
